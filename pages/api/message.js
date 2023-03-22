@@ -20,7 +20,7 @@ export default async function handler(req, res) {
       const completion = await openAI.createCompletion({
         model: "text-davinci-003", // required
         prompt: req.body.Body, // completion based on this
-        temperature: 0.6, //
+        temperature: 0.5, //
         n: 1,
         max_tokens: 500,
         // stop: "."
