@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-chatgpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okhuaroboosayuki/WhatsApp-ChatGPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okhuaroboosayuki/WhatsApp-ChatGPT/issues"
+  },
+  "homepage": "https://github.com/okhuaroboosayuki/WhatsApp-ChatGPT#readme",
+  "dependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "twilio": "^4.9.0"
+  }
+}
